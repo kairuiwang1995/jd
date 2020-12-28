@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+#top{display: flex;justify-content: space-around;border-bottom: 3px solid #cccccc;padding: 10px;box-shadow: 2px 2px;}
+#top span,a{display:inline-block;line-height: 42px;}
+#topleft{display: flex;align-items: flex-end;}
+#topleft img{vertical-align:middle}
+hr{height: 3px;background-color: #cccccc;margin-top: 10px;}

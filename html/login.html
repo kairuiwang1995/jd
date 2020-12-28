@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <!-- <link rel="stylesheet" href="./css/login.css"> -->
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/loginin.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <script src="../js/loginin.js"></script>
+</head>
+
+<body>
+    <div>
+        <div id="top">
+            <div id="topleft">
+                <img src="../images/logo.png" alt="">
+                <b style="display: block;width: 120px;">欢迎注册</b>
+            </div>
+            <div id="topright">
+                <span>页面登录,调查问卷</span>
+            </div>
+        </div>
+        <div class='pColor'>
+            <p>依照《网络安全法》，为保障您的账号安全和正常使用，请尽快阅读完成手机号码！新版<span>《京东隐私政策》</span> 已上线，将更有利保护您的个人隐私</p>
+        </div>
+        <!-- <img src="http://192.168.0.25:8888/images/loginBg.png" alt="" >   -->
+        <div id="bk">
+            <div class="all">
+                <div id="loginin">
+                    <div><span class="fa fa-exclamation-circle"></span>京东不会以任何理由要求您转账汇款，谨防诈骗。</div>
+                    <div id="lg">
+                        <h3>扫码登录</h3>
+                        <h3>账户登录</h3>
+                    </div>
+                </div>
+                <div class="user">
+                    <div><span class="fa fa-user"></span></div>
+                    <div><input type="text" placeholder="邮箱/用户名/登录手机" onchange="login(this)" id="number"></div>
+
+                </div>
+                <div class="password">
+                    <div><span class="fa fa-lock"></span></div>
+                    <div><input type="password" placeholder="密码" onchange="password(this)" id="password"></div>
+
+                </div>
+
+                <div id="fgt"><a href="">忘记密码</a></div>
+                <div id="login"><span onclick="go()">登录</span></div>
+                <div id="loginbottom">
+                    <div class="on">
+                        <span class="fa fa-qq y"><a href="">QQ</a></span>
+                        <span class="fa fa-weixin p"><a href="">微信</a></span>
+                    </div>
+                    <div class="un">
+                        <span class="fa fa-chevron-right h"><a href="./register.html">立即注册</a></span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

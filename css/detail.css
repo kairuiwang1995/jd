@@ -1,0 +1,24 @@
+*{margin: 0;padding: 0;}
+header{display:grid;grid-template-columns: 50% 50%;justify-items: center;background-color: #cccccc;color: #999999;}
+header span{color: red;}
+#in{color: red;}
+nav{display: grid;grid-template-columns: 50% 50%;justify-items: center;align-items: center;padding: 20px 0;}
+nav input{width: 200px;height: 30px;}
+nav a{background-color: brown;padding:5px 15px;color: white;}
+nav div:nth-child(2){display: grid;grid-template-columns: auto auto;}
+#changeimg{width: 100%;height: 400px;}
+footer{display: flex;width: 1000px;margin: auto;}
+.left{border: 1px solid #cccccc;width: 400px;}
+.right{border: 1px solid red; width: 600px;}
+.sp span{display: inline-block;}
+.all div{margin: 17px 0;}
+.all div span{color: black;}
+.v div{margin: 17px;}
+.a,.b{display: inline-block;}
+.a{text-align: center;border: 1px solid #cccccc;padding: 12px;}
+.b{text-align: center;background-color: red;color: white;height: 46px;line-height: 46px;border: 1px solid darkred;width: 120px;margin-left: 30px;}
+.add,.subtract{text-align: center;background-color: dimgray;display: inline-block;width: 20px;height: 20px;}
+.add{position: absolute;left: 919px;}
+.subtract{position: relative;top: 10px;right: 3px;;}
+hr{border: 2px solid #999999;box-shadow: 1px 1px ;}
+.c a,i{margin: 10px;}

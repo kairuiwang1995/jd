@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car</title>
+    <link rel="stylesheet" href="../css/car.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
+</head>
+<body onload="checklogon()">
+    <header>
+        <div>
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <a href="shop.html" style="text-decoration: none;color: #999;">京东首页</a>
+            
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            浙江
+        </div>
+        <div class="c">
+            <a href="./register.html" style="text-decoration: none;color: #999;color: red;">免费注册</a>
+            我的订单
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <a href="car.html" style="text-decoration: none;color:#999;">我的购物车</a>
+            客户服务
+        </div>
+    </header>
+    <nav>
+        <div>
+            <img src="../images/logo.png" alt="" >
+        </div>
+        <div>
+            <input type="text">
+            <a>搜索</a>
+        </div>
+    </nav>
+    <div class="temp">
+        <label for="">全部商品<span id="count">0</span></label>
+        
+    </div>
+    <div class="td">
+        <input type="checkbox">
+        <span id="checkall">全选</span>
+        <span>商品</span>
+        <span>单价</span>
+        <span>数量</span>
+        <span>小计</span>
+        <span>操作</span>
+    </div>
+    <div class="dt">
+        <input type="checkbox">
+        <span>京东自营</span>
+    </div>
+    <div class="dtt">
+        <span>
+            满减
+        </span>
+        活动商品购满￥600.00,即可享受满减>
+        <span>去凑单></span>
+    </div>
+<div id="div">
+    <table id="table"></table>
+</div>
+    </div>
+    <div class="ttd">
+        <div class="left">
+            <div>
+                <input type="checkbox" onclick="allin(this)" id="all">
+                <span >全选</span>
+                <span onclick="delcheck()">删除选中商品</span>
+                <span>移到关注</span>
+                <span onclick="dele(this)">清除购物车</span>
+               
+            </div>
+            <div>
+                <p> <span>已选择
+                    <label for="" id="c">0</label>件商品
+                </span>
+                <span>
+                    总价:<label for="" id="m">￥0.00</label>
+                    
+                    <i class="fa fa-lightbulb-o" aria-hidden="true" style="color: orange;"></i> 
+                </span></p>
+                <p>
+                    <span>促销:-￥0.00</span>                    
+                </p>
+            </div>
+        </div>
+        <div class="right" >
+            <span onclick="pay(this)">去结算</span>
+        </div>
+    </div>
+</body>
+</html>
+<script src="../js/car.js"></script>
